@@ -28,7 +28,7 @@ services:
       - ./dot/dot_config.yml:/app/dot/config/dot_config.yml
       - ../dot/config/example/self_tests/dot_config_docker.yml:/app/dot/self_tests/data/base_self_test/dot_config.yml
 
-  appsmith:
+  appsmith: 
     image: index.docker.io/appsmith/appsmith-ce
     container_name: appsmith
     ports:
